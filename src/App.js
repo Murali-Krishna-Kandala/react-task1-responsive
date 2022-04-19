@@ -1,10 +1,17 @@
-import logo from "./logo.svg";
 import "./App.css";
-
+import HeaderComponent from "./components/header";
+import HeadingComponent from "./components/heading";
+import NavigationComponent from "./components/navgation";
+import AboutComponent from "./components/about";
+import Footercomponent from "./components/footer";
 function App() {
   return (
-    <div>
-      <h1> Hello world</h1>
+    <div className="container">
+      <HeaderComponent />
+      <HeadingComponent />
+      <NavigationComponent />
+      <AboutComponent />
+      <Footercomponent />
     </div>
   );
 }
